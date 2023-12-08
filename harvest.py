@@ -100,13 +100,8 @@ class Melon:
         self.harvester = harvester
 
         
-    def is_sellable (self):
-        if self.shape_rating > 5 and 
-    self.color_rating > 5 and self.field != 3:
-            return True
-        else:
-            return False
-
+        def is_sellable (melon_num):
+            pass
         
 
 def make_melons(melon_types):
@@ -126,5 +121,7 @@ def get_sellability_report(melons):
 #melon2 = MelonType(345, 1960, "orange", True, True, "Honeydew")
 
 #melon2 = Melon("Honeydew",5,5,3, "Sheila")
+
+
 
 
